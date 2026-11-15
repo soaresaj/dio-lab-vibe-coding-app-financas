@@ -1,5 +1,3 @@
----
-
 # PARTE 1 — PRD
 
 ## 1. Visão e Problema

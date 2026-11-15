@@ -81,6 +81,81 @@ No README do seu repositório, inclua:
   - O que não funcionou como o esperado?  
   - O que aprendeu sobre conversar com IAs?
 
+**[Meu PRD](PRD_Fluxo_v6.md)**
+
+# 📱 Fluxo — Suas finanças finalmente fazem sentido
+
+## Cansado de apps que mentem sobre quanto você realmente tem?
+
+Você abre o app, vê um saldo bonito, gasta achando que pode… e no fim do mês descobre que a fatura do cartão comeu tudo. O problema não é você. É que a maioria dos apps confunde **o dinheiro que está na sua conta** com **a dívida que você já tem no cartão**. O resultado? Um saldo que parece certo, mas não é.
+
+O **Fluxo** nasceu para acabar com isso.
+
+---
+
+## Converse com seu dinheiro
+
+Esqueça formulários, planilhas e categorias intermináveis. No Fluxo, você registra tudo **conversando**:
+
+> *"almoço 30"*
+> *"uber 15 cc"*
+> *"recebi 2000 salário"*
+
+O app entende, organiza e confirma com você em um toque. Simples assim. E se preferir o jeito tradicional, o botão "+" está sempre ali.
+
+---
+
+## O que você vê, faz sentido
+
+Logo na tela inicial, quatro números claros:
+
+- 💰 **Quanto você tem** de verdade, na conta
+- 📅 **Quanto vence este mês** no cartão
+- 🔮 **Quanto vem por aí** nos próximos meses
+- 📊 **Quanto você já comprometeu** no futuro
+
+Sem letras miúdas. Sem surpresas no fim do mês.
+
+---
+
+## O cartão de crédito, do jeito que ele realmente funciona
+
+O Fluxo entende o que os outros apps ignoram: uma compra no cartão não tira dinheiro da sua conta hoje — ela vira fatura no mês que vem. E quando você paga a fatura, o app sabe exatamente o que aconteceu, mesmo que você pague a mais, a menos, ou não pague nada. A dívida rola para o próximo mês, como na vida real, e você vê isso com transparência: *saldo anterior + novas compras = total*.
+
+---
+
+## Metas que saem do papel
+
+Quer economizar R$ 500 até o fim do mês? O Fluxo acompanha seu progresso com base no que você **realmente** ganhou e gastou — não no que você gostaria de ter gasto. E avisa quando você está saindo do caminho.
+
+---
+
+## Feito para todo mundo
+
+O Fluxo foi desenhado para ser **acessível de verdade**: funciona com leitor de tela, tem fonte ajustável, contraste que respeita seus olhos, navegação por teclado e avisos sonoros nas ações importantes. Porque organizar a vida financeira não deveria ser privilégio de quem entende de tecnologia.
+
+---
+
+## Sem letras miúdas, sem armadilhas
+
+- Nada é apagado por acidente — tudo pode ser estornado com segurança
+- Você pode corrigir qualquer lançamento, e o app ajusta o saldo na hora
+- O Fluxo confere sozinho se as contas estão certas, para você dormir tranquilo
+- Seus dados são só seus
+
+---
+
+## O que vem por aí
+
+Em breve: dicas personalizadas de um agente financeiro que aprende com seus hábitos, comandos por voz e muito mais. Mas o essencial — **registrar fácil, entender de verdade** — já está aqui.
+
+---
+
+## Pronto para parar de adivinhar quanto você tem?
+
+**Baixe o Fluxo. Converse com seu dinheiro. Respire aliviado no fim do mês.**
+
+*Fluxo — suas finanças, finalmente claras.* 💚
 > [!TIP]
 > Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
 

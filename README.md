@@ -83,6 +83,16 @@ No README do seu repositório, inclua:
 
 **[Meu PRD](PRD_Fluxo_v6.md)**
 
+<img width="1366" height="251" alt="image" src="https://github.com/user-attachments/assets/c7cf17dc-14f7-4ba6-b67a-9fee0027c3c6" />
+
+<img width="1360" height="354" alt="image" src="https://github.com/user-attachments/assets/de44b5a8-6c18-4f58-9400-f90817dd6c59" />
+
+<img width="1364" height="349" alt="image" src="https://github.com/user-attachments/assets/afc3b4e7-d92d-481b-8b6e-1a33acca47b2" />
+
+<img width="952" height="585" alt="image" src="https://github.com/user-attachments/assets/9cf8c418-96c4-4445-ba04-ad7718310604" />
+
+<img width="951" height="588" alt="image" src="https://github.com/user-attachments/assets/156c3f67-cc7a-457d-93c3-137d118477f8" />
+
 # 📱 Fluxo — Suas finanças finalmente fazem sentido
 
 ## Cansado de apps que mentem sobre quanto você realmente tem?

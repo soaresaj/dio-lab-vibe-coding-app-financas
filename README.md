@@ -81,7 +81,11 @@ No README do seu repositório, inclua:
   - O que não funcionou como o esperado?  
   - O que aprendeu sobre conversar com IAs?
 
+---
+
 **[Meu PRD](PRD_Fluxo_v6.md)**
+
+---
 
 <img width="1366" height="251" alt="image" src="https://github.com/user-attachments/assets/c7cf17dc-14f7-4ba6-b67a-9fee0027c3c6" />
 
@@ -93,19 +97,21 @@ No README do seu repositório, inclua:
 
 <img width="951" height="588" alt="image" src="https://github.com/user-attachments/assets/156c3f67-cc7a-457d-93c3-137d118477f8" />
 
-# 📱 Fluxo — Suas finanças finalmente fazem sentido
+---
+
+# 📱 DinDin AI — Suas finanças finalmente fazem sentido
 
 ## Cansado de apps que mentem sobre quanto você realmente tem?
 
 Você abre o app, vê um saldo bonito, gasta achando que pode… e no fim do mês descobre que a fatura do cartão comeu tudo. O problema não é você. É que a maioria dos apps confunde **o dinheiro que está na sua conta** com **a dívida que você já tem no cartão**. O resultado? Um saldo que parece certo, mas não é.
 
-O **Fluxo** nasceu para acabar com isso.
+O **DinDin AI** nasceu para acabar com isso.
 
 ---
 
 ## Converse com seu dinheiro
 
-Esqueça formulários, planilhas e categorias intermináveis. No Fluxo, você registra tudo **conversando**:
+Esqueça formulários, planilhas e categorias intermináveis. No DinDin AI, você registra tudo **conversando**:
 
 > *"almoço 30"*
 > *"uber 15 cc"*
@@ -130,19 +136,19 @@ Sem letras miúdas. Sem surpresas no fim do mês.
 
 ## O cartão de crédito, do jeito que ele realmente funciona
 
-O Fluxo entende o que os outros apps ignoram: uma compra no cartão não tira dinheiro da sua conta hoje — ela vira fatura no mês que vem. E quando você paga a fatura, o app sabe exatamente o que aconteceu, mesmo que você pague a mais, a menos, ou não pague nada. A dívida rola para o próximo mês, como na vida real, e você vê isso com transparência: *saldo anterior + novas compras = total*.
+O DinDin AI entende o que os outros apps ignoram: uma compra no cartão não tira dinheiro da sua conta hoje — ela vira fatura no mês que vem. E quando você paga a fatura, o app sabe exatamente o que aconteceu, mesmo que você pague a mais, a menos, ou não pague nada. A dívida rola para o próximo mês, como na vida real, e você vê isso com transparência: *saldo anterior + novas compras = total*.
 
 ---
 
 ## Metas que saem do papel
 
-Quer economizar R$ 500 até o fim do mês? O Fluxo acompanha seu progresso com base no que você **realmente** ganhou e gastou — não no que você gostaria de ter gasto. E avisa quando você está saindo do caminho.
+Quer economizar R$ 500 até o fim do mês? O DinDin AI acompanha seu progresso com base no que você **realmente** ganhou e gastou — não no que você gostaria de ter gasto. E avisa quando você está saindo do caminho.
 
 ---
 
 ## Feito para todo mundo
 
-O Fluxo foi desenhado para ser **acessível de verdade**: funciona com leitor de tela, tem fonte ajustável, contraste que respeita seus olhos, navegação por teclado e avisos sonoros nas ações importantes. Porque organizar a vida financeira não deveria ser privilégio de quem entende de tecnologia.
+O DinDin AI foi desenhado para ser **acessível de verdade**: funciona com leitor de tela, tem fonte ajustável, contraste que respeita seus olhos, navegação por teclado e avisos sonoros nas ações importantes. Porque organizar a vida financeira não deveria ser privilégio de quem entende de tecnologia.
 
 ---
 
@@ -150,7 +156,7 @@ O Fluxo foi desenhado para ser **acessível de verdade**: funciona com leitor de
 
 - Nada é apagado por acidente — tudo pode ser estornado com segurança
 - Você pode corrigir qualquer lançamento, e o app ajusta o saldo na hora
-- O Fluxo confere sozinho se as contas estão certas, para você dormir tranquilo
+- O DinDin AI confere sozinho se as contas estão certas, para você dormir tranquilo
 - Seus dados são só seus
 
 ---
@@ -163,9 +169,34 @@ Em breve: dicas personalizadas de um agente financeiro que aprende com seus háb
 
 ## Pronto para parar de adivinhar quanto você tem?
 
-**Baixe o Fluxo. Converse com seu dinheiro. Respire aliviado no fim do mês.**
+**Baixe o DinDin AI. Converse com seu dinheiro. Respire aliviado no fim do mês.**
 
-*Fluxo — suas finanças, finalmente claras.* 💚
+*DinDin AI — suas finanças, finalmente claras.*
+
+---
+---
+
+# Reflexão sobre a construção do app no Lovable
+
+## O que funcionou bem?
+
+O processo de quebrar o PRD em módulos pequenos e autocontidos foi decisivo: cada iteração tinha escopo claro, critérios de aceite objetivos e um gabarito de validação, o que impedia o Lovable de "inventar" funcionalidades e mantinha o foco no que realmente importava. A clareza do modelo de dados (com regras nomeadas como R6, R14 e RE-03) permitiu que o Lovable traduzisse conceitos financeiros complexos — como rastreabilidade de pagamento e rolagem de dívida — em código funcional sem distorcer a lógica. Por fim, a disciplina de validar cada módulo com casos de teste reais antes de avançar evitou que erros de cálculo se propagassem e transformou o PRD em um documento vivo, que evoluiu junto com o código.
+
+---
+
+## O que não funcionou como o esperado?
+
+O maior desafio foi o Lovable tentar "ajudar demais": em vários momentos ele adicionou campos, recalculos de saldo ou validações que não estavam previstas no PRD, exigindo correções explícitas para trazer o código de volta ao escopo. A acessibilidade (ARIA, contraste, navegação por teclado) também precisou ser reforçada repetidamente, porque o Lovable tende a priorizar o visual em detrimento do Design Universal quando não é lembrado. E a lógica de ciclo de fatura exigiu iterações extras, porque erros de um dia (como compra exatamente no dia do fechamento) só aparecem quando testados com exemplos numéricos concretos, não com descrições genéricas.
+
+---
+
+## O que aprendeu sobre conversar com IAs?
+
+A principal lição é que **contexto vence instrução**: quanto mais específico o PRD (com regras nomeadas, fórmulas explícitas e critérios de aceite), menos o Lovable improvisa e mais ele acerta na primeira tentativa. Também ficou claro que **a IA não adivinha o que você quer — ela preenche lacunas com o que parece razoável**, então ambiguidade no prompt vira bug no código, e a cláusula de integridade ("não invente", "pergunte antes de assumir") é tão importante no vibe coding quanto na conversa com o ChatGPT. Por fim, aprender a **iterar em ciclos curtos** (planejar → implementar → testar → corrigir) e a **validar com gabaritos concretos** transformou a relação com a IA: em vez de esperar que ela "acerte de primeira", o processo passou a ser de colaboração estruturada, onde o humano define o quê e a IA executa o como.
+
+---
+---
+
 > [!TIP]
 > Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
 
